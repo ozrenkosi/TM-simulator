@@ -6,7 +6,7 @@ Solution for the fifth lab at "Introduction to Theoretical Computer Science" cou
 Example
 ------
 
-Input file consists of minimum 9 rows in this specific order:
+Input file consists rows in this specific order:
 
 1. line - states separated with `,`
 2. line - input symbols separated with `,`
@@ -16,7 +16,8 @@ Input file consists of minimum 9 rows in this specific order:
 6. line - acceptable states separated with `,`
 7. line - starting state
 8. line - starting position
-9. line and following lines - transition function in format `currentState,currentTapeSymbol->newState,newTapeSymbol,headMovement`
+9. line and following lines - transition function in format 
+   `currentState,currentTapeSymbol->newState,newTapeSymbol,headMovement`
 
 Input
 
